@@ -9,7 +9,7 @@ public class Runner {
 		String shape = scanner.next(); // Get what the user types.{
 		if(shape.equalsIgnoreCase("Cylinder")){
 			System.out.println("the raidus of this Cylinder is  " +c.getRadius());
-			System.out.println("the raidus of this Cylinder is  " +c.getRadius());
+			
 			System.out.println("the height of this Cylinder  is " + c.getHeight());
 			System.out.println("the diamter of this Cylinder  is " + c.getDiameter());
 			System.out.println("the Area of this Cylinder  is " + c.getArea());
