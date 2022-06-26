@@ -4,9 +4,8 @@ public class Runner {
 		Cylinder c = new Cylinder(7,6);
 		Sphere s = new Sphere(6);
 		
-		Scanner scanner = new Scanner (System.in);
-		System.out.print("What is this shape");  
-		String shape = scanner.next(); // Get what the user types.{
+		 
+		String shape = "Cylinder"; // Get what the user types.{
 		if(shape.equalsIgnoreCase("Cylinder")){
 			System.out.println("the raidus of this Cylinder is  " +c.getRadius());
 			
